@@ -1,0 +1,5 @@
+  File "/home/triton-ai/motion_plan_pkg/install/motion_plan_pkg/lib/python3.8/site-packages/motion_plan_pkg/motion_plan.py", line 312
+    self.traj_set = self.ltpl_obj.calc_vel_profile(pos_est=self.pos_est,,
+                                                                        ^
+SyntaxError: invalid syntax
+

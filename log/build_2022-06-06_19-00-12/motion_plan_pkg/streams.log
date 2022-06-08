@@ -1,0 +1,25 @@
+[0.819s] Invoking command in '/home/triton-ai/motion_plan_pkg/build/motion_plan_pkg': PYTHONPATH=/home/triton-ai/motion_plan_pkg/install/motion_plan_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/triton-ai/motion_plan_pkg/install/motion_plan_pkg --uninstall --editable --build-directory /home/triton-ai/motion_plan_pkg/build/motion_plan_pkg/build
+[1.124s] running develop
+[1.339s] Invoked command in '/home/triton-ai/motion_plan_pkg/build/motion_plan_pkg' returned '0': PYTHONPATH=/home/triton-ai/motion_plan_pkg/install/motion_plan_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/triton-ai/motion_plan_pkg/install/motion_plan_pkg --uninstall --editable --build-directory /home/triton-ai/motion_plan_pkg/build/motion_plan_pkg/build
+[1.343s] Invoking command in '/home/triton-ai/motion_plan_pkg': PYTHONPATH=/home/triton-ai/motion_plan_pkg/install/motion_plan_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/motion_plan_pkg build --build-base /home/triton-ai/motion_plan_pkg/build/motion_plan_pkg/build install --prefix /home/triton-ai/motion_plan_pkg/install/motion_plan_pkg --record /home/triton-ai/motion_plan_pkg/build/motion_plan_pkg/install.log --single-version-externally-managed
+[1.628s] running egg_info
+[1.629s] writing build/motion_plan_pkg/motion_plan_pkg.egg-info/PKG-INFO
+[1.629s] writing dependency_links to build/motion_plan_pkg/motion_plan_pkg.egg-info/dependency_links.txt
+[1.629s] writing entry points to build/motion_plan_pkg/motion_plan_pkg.egg-info/entry_points.txt
+[1.629s] writing requirements to build/motion_plan_pkg/motion_plan_pkg.egg-info/requires.txt
+[1.629s] writing top-level names to build/motion_plan_pkg/motion_plan_pkg.egg-info/top_level.txt
+[1.676s] reading manifest file 'build/motion_plan_pkg/motion_plan_pkg.egg-info/SOURCES.txt'
+[1.677s] writing manifest file 'build/motion_plan_pkg/motion_plan_pkg.egg-info/SOURCES.txt'
+[1.677s] running build
+[1.678s] running build_py
+[1.682s] running install
+[1.683s] running install_lib
+[1.687s] byte-compiling /home/triton-ai/motion_plan_pkg/install/motion_plan_pkg/lib/python3.8/site-packages/motion_plan_pkg/motion_plan.py to motion_plan.cpython-38.pyc
+[1.690s] running install_data
+[1.691s] running install_egg_info
+[1.693s] removing '/home/triton-ai/motion_plan_pkg/install/motion_plan_pkg/lib/python3.8/site-packages/motion_plan_pkg-0.0.0-py3.8.egg-info' (and everything under it)
+[1.693s] Copying build/motion_plan_pkg/motion_plan_pkg.egg-info to /home/triton-ai/motion_plan_pkg/install/motion_plan_pkg/lib/python3.8/site-packages/motion_plan_pkg-0.0.0-py3.8.egg-info
+[1.694s] running install_scripts
+[1.714s] Installing motion_plan script to /home/triton-ai/motion_plan_pkg/install/motion_plan_pkg/lib/motion_plan_pkg
+[1.716s] writing list of installed files to '/home/triton-ai/motion_plan_pkg/build/motion_plan_pkg/install.log'
+[1.741s] Invoked command in '/home/triton-ai/motion_plan_pkg' returned '0': PYTHONPATH=/home/triton-ai/motion_plan_pkg/install/motion_plan_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/motion_plan_pkg build --build-base /home/triton-ai/motion_plan_pkg/build/motion_plan_pkg/build install --prefix /home/triton-ai/motion_plan_pkg/install/motion_plan_pkg --record /home/triton-ai/motion_plan_pkg/build/motion_plan_pkg/install.log --single-version-externally-managed

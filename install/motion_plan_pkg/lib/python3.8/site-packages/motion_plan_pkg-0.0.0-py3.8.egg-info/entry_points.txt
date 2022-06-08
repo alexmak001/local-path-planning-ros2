@@ -1,0 +1,3 @@
+[console_scripts]
+motion_plan = motion_plan_pkg.motion_plan:main
+

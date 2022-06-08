@@ -1,0 +1,38 @@
+running egg_info
+creating build/motion_plan_pkg/motion_plan_pkg.egg-info
+writing build/motion_plan_pkg/motion_plan_pkg.egg-info/PKG-INFO
+writing dependency_links to build/motion_plan_pkg/motion_plan_pkg.egg-info/dependency_links.txt
+writing entry points to build/motion_plan_pkg/motion_plan_pkg.egg-info/entry_points.txt
+writing requirements to build/motion_plan_pkg/motion_plan_pkg.egg-info/requires.txt
+writing top-level names to build/motion_plan_pkg/motion_plan_pkg.egg-info/top_level.txt
+writing manifest file 'build/motion_plan_pkg/motion_plan_pkg.egg-info/SOURCES.txt'
+package init file 'motion_plan_pkg/params/__init__.py' not found (or not a regular file)
+package init file 'motion_plan_pkg/inputs/__init__.py' not found (or not a regular file)
+reading manifest file 'build/motion_plan_pkg/motion_plan_pkg.egg-info/SOURCES.txt'
+writing manifest file 'build/motion_plan_pkg/motion_plan_pkg.egg-info/SOURCES.txt'
+running build
+running build_py
+copying motion_plan_pkg/motion_plan.py -> /home/triton-ai/motion_plan_pkg/build/motion_plan_pkg/build/lib/motion_plan_pkg
+copying motion_plan_pkg/motion_plan_backup.py -> /home/triton-ai/motion_plan_pkg/build/motion_plan_pkg/build/lib/motion_plan_pkg
+running install
+running install_lib
+copying /home/triton-ai/motion_plan_pkg/build/motion_plan_pkg/build/lib/motion_plan_pkg/motion_plan.py -> /home/triton-ai/motion_plan_pkg/install/motion_plan_pkg/lib/python3.8/site-packages/motion_plan_pkg
+copying /home/triton-ai/motion_plan_pkg/build/motion_plan_pkg/build/lib/motion_plan_pkg/motion_plan_backup.py -> /home/triton-ai/motion_plan_pkg/install/motion_plan_pkg/lib/python3.8/site-packages/motion_plan_pkg
+byte-compiling /home/triton-ai/motion_plan_pkg/install/motion_plan_pkg/lib/python3.8/site-packages/motion_plan_pkg/motion_plan.py to motion_plan.cpython-38.pyc
+byte-compiling /home/triton-ai/motion_plan_pkg/install/motion_plan_pkg/lib/python3.8/site-packages/motion_plan_pkg/motion_plan_backup.py to motion_plan_backup.cpython-38.pyc
+running install_data
+creating /home/triton-ai/motion_plan_pkg/install/motion_plan_pkg/share/ament_index
+creating /home/triton-ai/motion_plan_pkg/install/motion_plan_pkg/share/ament_index/resource_index
+creating /home/triton-ai/motion_plan_pkg/install/motion_plan_pkg/share/ament_index/resource_index/packages
+copying resource/motion_plan_pkg -> /home/triton-ai/motion_plan_pkg/install/motion_plan_pkg/share/ament_index/resource_index/packages
+copying package.xml -> /home/triton-ai/motion_plan_pkg/install/motion_plan_pkg/share/motion_plan_pkg
+copying launch/motion_plan_launch_file.launch.py -> /home/triton-ai/motion_plan_pkg/install/motion_plan_pkg/share/motion_plan_pkg
+creating /home/triton-ai/motion_plan_pkg/install/motion_plan_pkg/share/motion_plan_pkg/graph_ltpl
+creating /home/triton-ai/motion_plan_pkg/install/motion_plan_pkg/share/motion_plan_pkg/params
+creating /home/triton-ai/motion_plan_pkg/install/motion_plan_pkg/share/motion_plan_pkg/inputs
+running install_egg_info
+removing '/home/triton-ai/motion_plan_pkg/install/motion_plan_pkg/lib/python3.8/site-packages/motion_plan_pkg-0.0.0-py3.8.egg-info' (and everything under it)
+Copying build/motion_plan_pkg/motion_plan_pkg.egg-info to /home/triton-ai/motion_plan_pkg/install/motion_plan_pkg/lib/python3.8/site-packages/motion_plan_pkg-0.0.0-py3.8.egg-info
+running install_scripts
+Installing motion_plan script to /home/triton-ai/motion_plan_pkg/install/motion_plan_pkg/lib/motion_plan_pkg
+writing list of installed files to '/home/triton-ai/motion_plan_pkg/build/motion_plan_pkg/install.log'

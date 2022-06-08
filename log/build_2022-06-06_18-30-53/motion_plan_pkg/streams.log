@@ -1,0 +1,189 @@
+[0.866s] Invoking command in '/home/triton-ai/motion_plan_pkg/build/motion_plan_pkg': PYTHONPATH=/home/triton-ai/motion_plan_pkg/install/motion_plan_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/triton-ai/motion_plan_pkg/install/motion_plan_pkg --uninstall --editable --build-directory /home/triton-ai/motion_plan_pkg/build/motion_plan_pkg/build
+[1.176s] running develop
+[1.371s] Removing /home/triton-ai/motion_plan_pkg/install/motion_plan_pkg/lib/python3.8/site-packages/motion-plan-pkg.egg-link (link to .)
+[1.398s] Invoked command in '/home/triton-ai/motion_plan_pkg/build/motion_plan_pkg' returned '0': PYTHONPATH=/home/triton-ai/motion_plan_pkg/install/motion_plan_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/triton-ai/motion_plan_pkg/install/motion_plan_pkg --uninstall --editable --build-directory /home/triton-ai/motion_plan_pkg/build/motion_plan_pkg/build
+[1.398s] Invoking command in '/home/triton-ai/motion_plan_pkg': PYTHONPATH=/home/triton-ai/motion_plan_pkg/install/motion_plan_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/motion_plan_pkg build --build-base /home/triton-ai/motion_plan_pkg/build/motion_plan_pkg/build install --prefix /home/triton-ai/motion_plan_pkg/install/motion_plan_pkg --record /home/triton-ai/motion_plan_pkg/build/motion_plan_pkg/install.log --single-version-externally-managed
+[1.689s] running egg_info
+[1.690s] writing build/motion_plan_pkg/motion_plan_pkg.egg-info/PKG-INFO
+[1.690s] writing dependency_links to build/motion_plan_pkg/motion_plan_pkg.egg-info/dependency_links.txt
+[1.690s] writing entry points to build/motion_plan_pkg/motion_plan_pkg.egg-info/entry_points.txt
+[1.690s] writing requirements to build/motion_plan_pkg/motion_plan_pkg.egg-info/requires.txt
+[1.691s] writing top-level names to build/motion_plan_pkg/motion_plan_pkg.egg-info/top_level.txt
+[1.741s] reading manifest file 'build/motion_plan_pkg/motion_plan_pkg.egg-info/SOURCES.txt'
+[1.742s] writing manifest file 'build/motion_plan_pkg/motion_plan_pkg.egg-info/SOURCES.txt'
+[1.743s] running build
+[1.743s] running build_py
+[1.743s] creating /home/triton-ai/motion_plan_pkg/build/motion_plan_pkg/build
+[1.743s] creating /home/triton-ai/motion_plan_pkg/build/motion_plan_pkg/build/lib
+[1.743s] creating /home/triton-ai/motion_plan_pkg/build/motion_plan_pkg/build/lib/motion_plan_pkg
+[1.743s] copying motion_plan_pkg/main_std_example.py -> /home/triton-ai/motion_plan_pkg/build/motion_plan_pkg/build/lib/motion_plan_pkg
+[1.744s] copying motion_plan_pkg/motion_plan.py -> /home/triton-ai/motion_plan_pkg/build/motion_plan_pkg/build/lib/motion_plan_pkg
+[1.744s] copying motion_plan_pkg/__init__.py -> /home/triton-ai/motion_plan_pkg/build/motion_plan_pkg/build/lib/motion_plan_pkg
+[1.744s] creating /home/triton-ai/motion_plan_pkg/build/motion_plan_pkg/build/lib/motion_plan_pkg/graph_ltpl
+[1.744s] copying motion_plan_pkg/graph_ltpl/Graph_LTPL.py -> /home/triton-ai/motion_plan_pkg/build/motion_plan_pkg/build/lib/motion_plan_pkg/graph_ltpl
+[1.744s] copying motion_plan_pkg/graph_ltpl/__init__.py -> /home/triton-ai/motion_plan_pkg/build/motion_plan_pkg/build/lib/motion_plan_pkg/graph_ltpl
+[1.744s] creating /home/triton-ai/motion_plan_pkg/build/motion_plan_pkg/build/lib/motion_plan_pkg/graph_ltpl/visualization
+[1.744s] copying motion_plan_pkg/graph_ltpl/visualization/__init__.py -> /home/triton-ai/motion_plan_pkg/build/motion_plan_pkg/build/lib/motion_plan_pkg/graph_ltpl/visualization
+[1.745s] creating /home/triton-ai/motion_plan_pkg/build/motion_plan_pkg/build/lib/motion_plan_pkg/graph_ltpl/data_objects
+[1.745s] copying motion_plan_pkg/graph_ltpl/data_objects/GraphBase.py -> /home/triton-ai/motion_plan_pkg/build/motion_plan_pkg/build/lib/motion_plan_pkg/graph_ltpl/data_objects
+[1.745s] copying motion_plan_pkg/graph_ltpl/data_objects/__init__.py -> /home/triton-ai/motion_plan_pkg/build/motion_plan_pkg/build/lib/motion_plan_pkg/graph_ltpl/data_objects
+[1.745s] copying motion_plan_pkg/graph_ltpl/data_objects/ObjectListInterface.py -> /home/triton-ai/motion_plan_pkg/build/motion_plan_pkg/build/lib/motion_plan_pkg/graph_ltpl/data_objects
+[1.745s] creating /home/triton-ai/motion_plan_pkg/build/motion_plan_pkg/build/lib/motion_plan_pkg/graph_ltpl/helper_funcs
+[1.745s] copying motion_plan_pkg/graph_ltpl/helper_funcs/__init__.py -> /home/triton-ai/motion_plan_pkg/build/motion_plan_pkg/build/lib/motion_plan_pkg/graph_ltpl/helper_funcs
+[1.745s] creating /home/triton-ai/motion_plan_pkg/build/motion_plan_pkg/build/lib/motion_plan_pkg/graph_ltpl/testing_tools
+[1.746s] copying motion_plan_pkg/graph_ltpl/testing_tools/__init__.py -> /home/triton-ai/motion_plan_pkg/build/motion_plan_pkg/build/lib/motion_plan_pkg/graph_ltpl/testing_tools
+[1.746s] creating /home/triton-ai/motion_plan_pkg/build/motion_plan_pkg/build/lib/motion_plan_pkg/graph_ltpl/offline_graph
+[1.746s] copying motion_plan_pkg/graph_ltpl/offline_graph/__init__.py -> /home/triton-ai/motion_plan_pkg/build/motion_plan_pkg/build/lib/motion_plan_pkg/graph_ltpl/offline_graph
+[1.747s] creating /home/triton-ai/motion_plan_pkg/build/motion_plan_pkg/build/lib/motion_plan_pkg/graph_ltpl/imp_global_traj
+[1.747s] copying motion_plan_pkg/graph_ltpl/imp_global_traj/__init__.py -> /home/triton-ai/motion_plan_pkg/build/motion_plan_pkg/build/lib/motion_plan_pkg/graph_ltpl/imp_global_traj
+[1.747s] creating /home/triton-ai/motion_plan_pkg/build/motion_plan_pkg/build/lib/motion_plan_pkg/graph_ltpl/online_graph
+[1.747s] copying motion_plan_pkg/graph_ltpl/online_graph/__init__.py -> /home/triton-ai/motion_plan_pkg/build/motion_plan_pkg/build/lib/motion_plan_pkg/graph_ltpl/online_graph
+[1.747s] creating /home/triton-ai/motion_plan_pkg/build/motion_plan_pkg/build/lib/motion_plan_pkg/graph_ltpl/visualization/src
+[1.747s] copying motion_plan_pkg/graph_ltpl/visualization/src/visualize_graph_log.py -> /home/triton-ai/motion_plan_pkg/build/motion_plan_pkg/build/lib/motion_plan_pkg/graph_ltpl/visualization/src
+[1.748s] copying motion_plan_pkg/graph_ltpl/visualization/src/PlotHandler.py -> /home/triton-ai/motion_plan_pkg/build/motion_plan_pkg/build/lib/motion_plan_pkg/graph_ltpl/visualization/src
+[1.748s] copying motion_plan_pkg/graph_ltpl/visualization/src/__init__.py -> /home/triton-ai/motion_plan_pkg/build/motion_plan_pkg/build/lib/motion_plan_pkg/graph_ltpl/visualization/src
+[1.748s] creating /home/triton-ai/motion_plan_pkg/build/motion_plan_pkg/build/lib/motion_plan_pkg/graph_ltpl/helper_funcs/src
+[1.749s] copying motion_plan_pkg/graph_ltpl/helper_funcs/src/closest_path_index.py -> /home/triton-ai/motion_plan_pkg/build/motion_plan_pkg/build/lib/motion_plan_pkg/graph_ltpl/helper_funcs/src
+[1.749s] copying motion_plan_pkg/graph_ltpl/helper_funcs/src/Logging.py -> /home/triton-ai/motion_plan_pkg/build/motion_plan_pkg/build/lib/motion_plan_pkg/graph_ltpl/helper_funcs/src
+[1.749s] copying motion_plan_pkg/graph_ltpl/helper_funcs/src/get_s_coord.py -> /home/triton-ai/motion_plan_pkg/build/motion_plan_pkg/build/lib/motion_plan_pkg/graph_ltpl/helper_funcs/src
+[1.749s] copying motion_plan_pkg/graph_ltpl/helper_funcs/src/calc_brake_emergency.py -> /home/triton-ai/motion_plan_pkg/build/motion_plan_pkg/build/lib/motion_plan_pkg/graph_ltpl/helper_funcs/src
+[1.749s] copying motion_plan_pkg/graph_ltpl/helper_funcs/src/calc_vel_profile_follow.py -> /home/triton-ai/motion_plan_pkg/build/motion_plan_pkg/build/lib/motion_plan_pkg/graph_ltpl/helper_funcs/src
+[1.749s] copying motion_plan_pkg/graph_ltpl/helper_funcs/src/__init__.py -> /home/triton-ai/motion_plan_pkg/build/motion_plan_pkg/build/lib/motion_plan_pkg/graph_ltpl/helper_funcs/src
+[1.749s] creating /home/triton-ai/motion_plan_pkg/build/motion_plan_pkg/build/lib/motion_plan_pkg/graph_ltpl/testing_tools/src
+[1.750s] copying motion_plan_pkg/graph_ltpl/testing_tools/src/vdc_dummy.py -> /home/triton-ai/motion_plan_pkg/build/motion_plan_pkg/build/lib/motion_plan_pkg/graph_ltpl/testing_tools/src
+[1.750s] copying motion_plan_pkg/graph_ltpl/testing_tools/src/objectlist_dummy.py -> /home/triton-ai/motion_plan_pkg/build/motion_plan_pkg/build/lib/motion_plan_pkg/graph_ltpl/testing_tools/src
+[1.750s] copying motion_plan_pkg/graph_ltpl/testing_tools/src/__init__.py -> /home/triton-ai/motion_plan_pkg/build/motion_plan_pkg/build/lib/motion_plan_pkg/graph_ltpl/testing_tools/src
+[1.750s] creating /home/triton-ai/motion_plan_pkg/build/motion_plan_pkg/build/lib/motion_plan_pkg/graph_ltpl/offline_graph/src
+[1.750s] copying motion_plan_pkg/graph_ltpl/offline_graph/src/gen_offline_cost.py -> /home/triton-ai/motion_plan_pkg/build/motion_plan_pkg/build/lib/motion_plan_pkg/graph_ltpl/offline_graph/src
+[1.750s] copying motion_plan_pkg/graph_ltpl/offline_graph/src/gen_node_skeleton.py -> /home/triton-ai/motion_plan_pkg/build/motion_plan_pkg/build/lib/motion_plan_pkg/graph_ltpl/offline_graph/src
+[1.750s] copying motion_plan_pkg/graph_ltpl/offline_graph/src/prune_graph.py -> /home/triton-ai/motion_plan_pkg/build/motion_plan_pkg/build/lib/motion_plan_pkg/graph_ltpl/offline_graph/src
+[1.751s] copying motion_plan_pkg/graph_ltpl/offline_graph/src/gen_edges.py -> /home/triton-ai/motion_plan_pkg/build/motion_plan_pkg/build/lib/motion_plan_pkg/graph_ltpl/offline_graph/src
+[1.751s] copying motion_plan_pkg/graph_ltpl/offline_graph/src/main_offline_callback.py -> /home/triton-ai/motion_plan_pkg/build/motion_plan_pkg/build/lib/motion_plan_pkg/graph_ltpl/offline_graph/src
+[1.751s] copying motion_plan_pkg/graph_ltpl/offline_graph/src/__init__.py -> /home/triton-ai/motion_plan_pkg/build/motion_plan_pkg/build/lib/motion_plan_pkg/graph_ltpl/offline_graph/src
+[1.751s] creating /home/triton-ai/motion_plan_pkg/build/motion_plan_pkg/build/lib/motion_plan_pkg/graph_ltpl/imp_global_traj/src
+[1.752s] copying motion_plan_pkg/graph_ltpl/imp_global_traj/src/variable_step_size.py -> /home/triton-ai/motion_plan_pkg/build/motion_plan_pkg/build/lib/motion_plan_pkg/graph_ltpl/imp_global_traj/src
+[1.752s] copying motion_plan_pkg/graph_ltpl/imp_global_traj/src/import_globtraj_csv.py -> /home/triton-ai/motion_plan_pkg/build/motion_plan_pkg/build/lib/motion_plan_pkg/graph_ltpl/imp_global_traj/src
+[1.753s] copying motion_plan_pkg/graph_ltpl/imp_global_traj/src/__init__.py -> /home/triton-ai/motion_plan_pkg/build/motion_plan_pkg/build/lib/motion_plan_pkg/graph_ltpl/imp_global_traj/src
+[1.753s] creating /home/triton-ai/motion_plan_pkg/build/motion_plan_pkg/build/lib/motion_plan_pkg/graph_ltpl/online_graph/src
+[1.753s] copying motion_plan_pkg/graph_ltpl/online_graph/src/get_intersec_edges.py -> /home/triton-ai/motion_plan_pkg/build/motion_plan_pkg/build/lib/motion_plan_pkg/graph_ltpl/online_graph/src
+[1.754s] copying motion_plan_pkg/graph_ltpl/online_graph/src/VpForwardBackward.py -> /home/triton-ai/motion_plan_pkg/build/motion_plan_pkg/build/lib/motion_plan_pkg/graph_ltpl/online_graph/src
+[1.754s] copying motion_plan_pkg/graph_ltpl/online_graph/src/VpSQP.py -> /home/triton-ai/motion_plan_pkg/build/motion_plan_pkg/build/lib/motion_plan_pkg/graph_ltpl/online_graph/src
+[1.754s] copying motion_plan_pkg/graph_ltpl/online_graph/src/get_zone_nodes.py -> /home/triton-ai/motion_plan_pkg/build/motion_plan_pkg/build/lib/motion_plan_pkg/graph_ltpl/online_graph/src
+[1.754s] copying motion_plan_pkg/graph_ltpl/online_graph/src/gen_local_node_template.py -> /home/triton-ai/motion_plan_pkg/build/motion_plan_pkg/build/lib/motion_plan_pkg/graph_ltpl/online_graph/src
+[1.754s] copying motion_plan_pkg/graph_ltpl/online_graph/src/OnlineTrajectoryHandler.py -> /home/triton-ai/motion_plan_pkg/build/motion_plan_pkg/build/lib/motion_plan_pkg/graph_ltpl/online_graph/src
+[1.755s] copying motion_plan_pkg/graph_ltpl/online_graph/src/check_inside_bounds.py -> /home/triton-ai/motion_plan_pkg/build/motion_plan_pkg/build/lib/motion_plan_pkg/graph_ltpl/online_graph/src
+[1.755s] copying motion_plan_pkg/graph_ltpl/online_graph/src/main_online_path_gen.py -> /home/triton-ai/motion_plan_pkg/build/motion_plan_pkg/build/lib/motion_plan_pkg/graph_ltpl/online_graph/src
+[1.755s] copying motion_plan_pkg/graph_ltpl/online_graph/src/__init__.py -> /home/triton-ai/motion_plan_pkg/build/motion_plan_pkg/build/lib/motion_plan_pkg/graph_ltpl/online_graph/src
+[1.756s] running install
+[1.757s] running install_lib
+[1.758s] creating /home/triton-ai/motion_plan_pkg/install/motion_plan_pkg/lib/python3.8/site-packages/motion_plan_pkg
+[1.758s] copying /home/triton-ai/motion_plan_pkg/build/motion_plan_pkg/build/lib/motion_plan_pkg/main_std_example.py -> /home/triton-ai/motion_plan_pkg/install/motion_plan_pkg/lib/python3.8/site-packages/motion_plan_pkg
+[1.758s] copying /home/triton-ai/motion_plan_pkg/build/motion_plan_pkg/build/lib/motion_plan_pkg/motion_plan.py -> /home/triton-ai/motion_plan_pkg/install/motion_plan_pkg/lib/python3.8/site-packages/motion_plan_pkg
+[1.758s] creating /home/triton-ai/motion_plan_pkg/install/motion_plan_pkg/lib/python3.8/site-packages/motion_plan_pkg/graph_ltpl
+[1.759s] creating /home/triton-ai/motion_plan_pkg/install/motion_plan_pkg/lib/python3.8/site-packages/motion_plan_pkg/graph_ltpl/visualization
+[1.759s] creating /home/triton-ai/motion_plan_pkg/install/motion_plan_pkg/lib/python3.8/site-packages/motion_plan_pkg/graph_ltpl/visualization/src
+[1.759s] copying /home/triton-ai/motion_plan_pkg/build/motion_plan_pkg/build/lib/motion_plan_pkg/graph_ltpl/visualization/src/visualize_graph_log.py -> /home/triton-ai/motion_plan_pkg/install/motion_plan_pkg/lib/python3.8/site-packages/motion_plan_pkg/graph_ltpl/visualization/src
+[1.759s] copying /home/triton-ai/motion_plan_pkg/build/motion_plan_pkg/build/lib/motion_plan_pkg/graph_ltpl/visualization/src/PlotHandler.py -> /home/triton-ai/motion_plan_pkg/install/motion_plan_pkg/lib/python3.8/site-packages/motion_plan_pkg/graph_ltpl/visualization/src
+[1.759s] copying /home/triton-ai/motion_plan_pkg/build/motion_plan_pkg/build/lib/motion_plan_pkg/graph_ltpl/visualization/src/__init__.py -> /home/triton-ai/motion_plan_pkg/install/motion_plan_pkg/lib/python3.8/site-packages/motion_plan_pkg/graph_ltpl/visualization/src
+[1.759s] copying /home/triton-ai/motion_plan_pkg/build/motion_plan_pkg/build/lib/motion_plan_pkg/graph_ltpl/visualization/__init__.py -> /home/triton-ai/motion_plan_pkg/install/motion_plan_pkg/lib/python3.8/site-packages/motion_plan_pkg/graph_ltpl/visualization
+[1.760s] creating /home/triton-ai/motion_plan_pkg/install/motion_plan_pkg/lib/python3.8/site-packages/motion_plan_pkg/graph_ltpl/data_objects
+[1.760s] copying /home/triton-ai/motion_plan_pkg/build/motion_plan_pkg/build/lib/motion_plan_pkg/graph_ltpl/data_objects/GraphBase.py -> /home/triton-ai/motion_plan_pkg/install/motion_plan_pkg/lib/python3.8/site-packages/motion_plan_pkg/graph_ltpl/data_objects
+[1.760s] copying /home/triton-ai/motion_plan_pkg/build/motion_plan_pkg/build/lib/motion_plan_pkg/graph_ltpl/data_objects/__init__.py -> /home/triton-ai/motion_plan_pkg/install/motion_plan_pkg/lib/python3.8/site-packages/motion_plan_pkg/graph_ltpl/data_objects
+[1.760s] copying /home/triton-ai/motion_plan_pkg/build/motion_plan_pkg/build/lib/motion_plan_pkg/graph_ltpl/data_objects/ObjectListInterface.py -> /home/triton-ai/motion_plan_pkg/install/motion_plan_pkg/lib/python3.8/site-packages/motion_plan_pkg/graph_ltpl/data_objects
+[1.760s] creating /home/triton-ai/motion_plan_pkg/install/motion_plan_pkg/lib/python3.8/site-packages/motion_plan_pkg/graph_ltpl/helper_funcs
+[1.760s] creating /home/triton-ai/motion_plan_pkg/install/motion_plan_pkg/lib/python3.8/site-packages/motion_plan_pkg/graph_ltpl/helper_funcs/src
+[1.760s] copying /home/triton-ai/motion_plan_pkg/build/motion_plan_pkg/build/lib/motion_plan_pkg/graph_ltpl/helper_funcs/src/closest_path_index.py -> /home/triton-ai/motion_plan_pkg/install/motion_plan_pkg/lib/python3.8/site-packages/motion_plan_pkg/graph_ltpl/helper_funcs/src
+[1.761s] copying /home/triton-ai/motion_plan_pkg/build/motion_plan_pkg/build/lib/motion_plan_pkg/graph_ltpl/helper_funcs/src/Logging.py -> /home/triton-ai/motion_plan_pkg/install/motion_plan_pkg/lib/python3.8/site-packages/motion_plan_pkg/graph_ltpl/helper_funcs/src
+[1.761s] copying /home/triton-ai/motion_plan_pkg/build/motion_plan_pkg/build/lib/motion_plan_pkg/graph_ltpl/helper_funcs/src/get_s_coord.py -> /home/triton-ai/motion_plan_pkg/install/motion_plan_pkg/lib/python3.8/site-packages/motion_plan_pkg/graph_ltpl/helper_funcs/src
+[1.761s] copying /home/triton-ai/motion_plan_pkg/build/motion_plan_pkg/build/lib/motion_plan_pkg/graph_ltpl/helper_funcs/src/calc_brake_emergency.py -> /home/triton-ai/motion_plan_pkg/install/motion_plan_pkg/lib/python3.8/site-packages/motion_plan_pkg/graph_ltpl/helper_funcs/src
+[1.761s] copying /home/triton-ai/motion_plan_pkg/build/motion_plan_pkg/build/lib/motion_plan_pkg/graph_ltpl/helper_funcs/src/calc_vel_profile_follow.py -> /home/triton-ai/motion_plan_pkg/install/motion_plan_pkg/lib/python3.8/site-packages/motion_plan_pkg/graph_ltpl/helper_funcs/src
+[1.761s] copying /home/triton-ai/motion_plan_pkg/build/motion_plan_pkg/build/lib/motion_plan_pkg/graph_ltpl/helper_funcs/src/__init__.py -> /home/triton-ai/motion_plan_pkg/install/motion_plan_pkg/lib/python3.8/site-packages/motion_plan_pkg/graph_ltpl/helper_funcs/src
+[1.761s] copying /home/triton-ai/motion_plan_pkg/build/motion_plan_pkg/build/lib/motion_plan_pkg/graph_ltpl/helper_funcs/__init__.py -> /home/triton-ai/motion_plan_pkg/install/motion_plan_pkg/lib/python3.8/site-packages/motion_plan_pkg/graph_ltpl/helper_funcs
+[1.761s] creating /home/triton-ai/motion_plan_pkg/install/motion_plan_pkg/lib/python3.8/site-packages/motion_plan_pkg/graph_ltpl/testing_tools
+[1.762s] creating /home/triton-ai/motion_plan_pkg/install/motion_plan_pkg/lib/python3.8/site-packages/motion_plan_pkg/graph_ltpl/testing_tools/src
+[1.762s] copying /home/triton-ai/motion_plan_pkg/build/motion_plan_pkg/build/lib/motion_plan_pkg/graph_ltpl/testing_tools/src/vdc_dummy.py -> /home/triton-ai/motion_plan_pkg/install/motion_plan_pkg/lib/python3.8/site-packages/motion_plan_pkg/graph_ltpl/testing_tools/src
+[1.762s] copying /home/triton-ai/motion_plan_pkg/build/motion_plan_pkg/build/lib/motion_plan_pkg/graph_ltpl/testing_tools/src/objectlist_dummy.py -> /home/triton-ai/motion_plan_pkg/install/motion_plan_pkg/lib/python3.8/site-packages/motion_plan_pkg/graph_ltpl/testing_tools/src
+[1.762s] copying /home/triton-ai/motion_plan_pkg/build/motion_plan_pkg/build/lib/motion_plan_pkg/graph_ltpl/testing_tools/src/__init__.py -> /home/triton-ai/motion_plan_pkg/install/motion_plan_pkg/lib/python3.8/site-packages/motion_plan_pkg/graph_ltpl/testing_tools/src
+[1.762s] copying /home/triton-ai/motion_plan_pkg/build/motion_plan_pkg/build/lib/motion_plan_pkg/graph_ltpl/testing_tools/__init__.py -> /home/triton-ai/motion_plan_pkg/install/motion_plan_pkg/lib/python3.8/site-packages/motion_plan_pkg/graph_ltpl/testing_tools
+[1.762s] creating /home/triton-ai/motion_plan_pkg/install/motion_plan_pkg/lib/python3.8/site-packages/motion_plan_pkg/graph_ltpl/offline_graph
+[1.762s] creating /home/triton-ai/motion_plan_pkg/install/motion_plan_pkg/lib/python3.8/site-packages/motion_plan_pkg/graph_ltpl/offline_graph/src
+[1.763s] copying /home/triton-ai/motion_plan_pkg/build/motion_plan_pkg/build/lib/motion_plan_pkg/graph_ltpl/offline_graph/src/gen_offline_cost.py -> /home/triton-ai/motion_plan_pkg/install/motion_plan_pkg/lib/python3.8/site-packages/motion_plan_pkg/graph_ltpl/offline_graph/src
+[1.763s] copying /home/triton-ai/motion_plan_pkg/build/motion_plan_pkg/build/lib/motion_plan_pkg/graph_ltpl/offline_graph/src/gen_node_skeleton.py -> /home/triton-ai/motion_plan_pkg/install/motion_plan_pkg/lib/python3.8/site-packages/motion_plan_pkg/graph_ltpl/offline_graph/src
+[1.763s] copying /home/triton-ai/motion_plan_pkg/build/motion_plan_pkg/build/lib/motion_plan_pkg/graph_ltpl/offline_graph/src/prune_graph.py -> /home/triton-ai/motion_plan_pkg/install/motion_plan_pkg/lib/python3.8/site-packages/motion_plan_pkg/graph_ltpl/offline_graph/src
+[1.763s] copying /home/triton-ai/motion_plan_pkg/build/motion_plan_pkg/build/lib/motion_plan_pkg/graph_ltpl/offline_graph/src/gen_edges.py -> /home/triton-ai/motion_plan_pkg/install/motion_plan_pkg/lib/python3.8/site-packages/motion_plan_pkg/graph_ltpl/offline_graph/src
+[1.763s] copying /home/triton-ai/motion_plan_pkg/build/motion_plan_pkg/build/lib/motion_plan_pkg/graph_ltpl/offline_graph/src/main_offline_callback.py -> /home/triton-ai/motion_plan_pkg/install/motion_plan_pkg/lib/python3.8/site-packages/motion_plan_pkg/graph_ltpl/offline_graph/src
+[1.764s] copying /home/triton-ai/motion_plan_pkg/build/motion_plan_pkg/build/lib/motion_plan_pkg/graph_ltpl/offline_graph/src/__init__.py -> /home/triton-ai/motion_plan_pkg/install/motion_plan_pkg/lib/python3.8/site-packages/motion_plan_pkg/graph_ltpl/offline_graph/src
+[1.764s] copying /home/triton-ai/motion_plan_pkg/build/motion_plan_pkg/build/lib/motion_plan_pkg/graph_ltpl/offline_graph/__init__.py -> /home/triton-ai/motion_plan_pkg/install/motion_plan_pkg/lib/python3.8/site-packages/motion_plan_pkg/graph_ltpl/offline_graph
+[1.764s] copying /home/triton-ai/motion_plan_pkg/build/motion_plan_pkg/build/lib/motion_plan_pkg/graph_ltpl/Graph_LTPL.py -> /home/triton-ai/motion_plan_pkg/install/motion_plan_pkg/lib/python3.8/site-packages/motion_plan_pkg/graph_ltpl
+[1.764s] copying /home/triton-ai/motion_plan_pkg/build/motion_plan_pkg/build/lib/motion_plan_pkg/graph_ltpl/__init__.py -> /home/triton-ai/motion_plan_pkg/install/motion_plan_pkg/lib/python3.8/site-packages/motion_plan_pkg/graph_ltpl
+[1.764s] creating /home/triton-ai/motion_plan_pkg/install/motion_plan_pkg/lib/python3.8/site-packages/motion_plan_pkg/graph_ltpl/imp_global_traj
+[1.764s] creating /home/triton-ai/motion_plan_pkg/install/motion_plan_pkg/lib/python3.8/site-packages/motion_plan_pkg/graph_ltpl/imp_global_traj/src
+[1.764s] copying /home/triton-ai/motion_plan_pkg/build/motion_plan_pkg/build/lib/motion_plan_pkg/graph_ltpl/imp_global_traj/src/variable_step_size.py -> /home/triton-ai/motion_plan_pkg/install/motion_plan_pkg/lib/python3.8/site-packages/motion_plan_pkg/graph_ltpl/imp_global_traj/src
+[1.765s] copying /home/triton-ai/motion_plan_pkg/build/motion_plan_pkg/build/lib/motion_plan_pkg/graph_ltpl/imp_global_traj/src/import_globtraj_csv.py -> /home/triton-ai/motion_plan_pkg/install/motion_plan_pkg/lib/python3.8/site-packages/motion_plan_pkg/graph_ltpl/imp_global_traj/src
+[1.765s] copying /home/triton-ai/motion_plan_pkg/build/motion_plan_pkg/build/lib/motion_plan_pkg/graph_ltpl/imp_global_traj/src/__init__.py -> /home/triton-ai/motion_plan_pkg/install/motion_plan_pkg/lib/python3.8/site-packages/motion_plan_pkg/graph_ltpl/imp_global_traj/src
+[1.765s] copying /home/triton-ai/motion_plan_pkg/build/motion_plan_pkg/build/lib/motion_plan_pkg/graph_ltpl/imp_global_traj/__init__.py -> /home/triton-ai/motion_plan_pkg/install/motion_plan_pkg/lib/python3.8/site-packages/motion_plan_pkg/graph_ltpl/imp_global_traj
+[1.765s] creating /home/triton-ai/motion_plan_pkg/install/motion_plan_pkg/lib/python3.8/site-packages/motion_plan_pkg/graph_ltpl/online_graph
+[1.765s] creating /home/triton-ai/motion_plan_pkg/install/motion_plan_pkg/lib/python3.8/site-packages/motion_plan_pkg/graph_ltpl/online_graph/src
+[1.765s] copying /home/triton-ai/motion_plan_pkg/build/motion_plan_pkg/build/lib/motion_plan_pkg/graph_ltpl/online_graph/src/get_intersec_edges.py -> /home/triton-ai/motion_plan_pkg/install/motion_plan_pkg/lib/python3.8/site-packages/motion_plan_pkg/graph_ltpl/online_graph/src
+[1.766s] copying /home/triton-ai/motion_plan_pkg/build/motion_plan_pkg/build/lib/motion_plan_pkg/graph_ltpl/online_graph/src/VpForwardBackward.py -> /home/triton-ai/motion_plan_pkg/install/motion_plan_pkg/lib/python3.8/site-packages/motion_plan_pkg/graph_ltpl/online_graph/src
+[1.766s] copying /home/triton-ai/motion_plan_pkg/build/motion_plan_pkg/build/lib/motion_plan_pkg/graph_ltpl/online_graph/src/VpSQP.py -> /home/triton-ai/motion_plan_pkg/install/motion_plan_pkg/lib/python3.8/site-packages/motion_plan_pkg/graph_ltpl/online_graph/src
+[1.766s] copying /home/triton-ai/motion_plan_pkg/build/motion_plan_pkg/build/lib/motion_plan_pkg/graph_ltpl/online_graph/src/get_zone_nodes.py -> /home/triton-ai/motion_plan_pkg/install/motion_plan_pkg/lib/python3.8/site-packages/motion_plan_pkg/graph_ltpl/online_graph/src
+[1.766s] copying /home/triton-ai/motion_plan_pkg/build/motion_plan_pkg/build/lib/motion_plan_pkg/graph_ltpl/online_graph/src/gen_local_node_template.py -> /home/triton-ai/motion_plan_pkg/install/motion_plan_pkg/lib/python3.8/site-packages/motion_plan_pkg/graph_ltpl/online_graph/src
+[1.766s] copying /home/triton-ai/motion_plan_pkg/build/motion_plan_pkg/build/lib/motion_plan_pkg/graph_ltpl/online_graph/src/OnlineTrajectoryHandler.py -> /home/triton-ai/motion_plan_pkg/install/motion_plan_pkg/lib/python3.8/site-packages/motion_plan_pkg/graph_ltpl/online_graph/src
+[1.767s] copying /home/triton-ai/motion_plan_pkg/build/motion_plan_pkg/build/lib/motion_plan_pkg/graph_ltpl/online_graph/src/check_inside_bounds.py -> /home/triton-ai/motion_plan_pkg/install/motion_plan_pkg/lib/python3.8/site-packages/motion_plan_pkg/graph_ltpl/online_graph/src
+[1.767s] copying /home/triton-ai/motion_plan_pkg/build/motion_plan_pkg/build/lib/motion_plan_pkg/graph_ltpl/online_graph/src/main_online_path_gen.py -> /home/triton-ai/motion_plan_pkg/install/motion_plan_pkg/lib/python3.8/site-packages/motion_plan_pkg/graph_ltpl/online_graph/src
+[1.767s] copying /home/triton-ai/motion_plan_pkg/build/motion_plan_pkg/build/lib/motion_plan_pkg/graph_ltpl/online_graph/src/__init__.py -> /home/triton-ai/motion_plan_pkg/install/motion_plan_pkg/lib/python3.8/site-packages/motion_plan_pkg/graph_ltpl/online_graph/src
+[1.767s] copying /home/triton-ai/motion_plan_pkg/build/motion_plan_pkg/build/lib/motion_plan_pkg/graph_ltpl/online_graph/__init__.py -> /home/triton-ai/motion_plan_pkg/install/motion_plan_pkg/lib/python3.8/site-packages/motion_plan_pkg/graph_ltpl/online_graph
+[1.767s] copying /home/triton-ai/motion_plan_pkg/build/motion_plan_pkg/build/lib/motion_plan_pkg/__init__.py -> /home/triton-ai/motion_plan_pkg/install/motion_plan_pkg/lib/python3.8/site-packages/motion_plan_pkg
+[1.767s] byte-compiling /home/triton-ai/motion_plan_pkg/install/motion_plan_pkg/lib/python3.8/site-packages/motion_plan_pkg/main_std_example.py to main_std_example.cpython-38.pyc
+[1.768s] byte-compiling /home/triton-ai/motion_plan_pkg/install/motion_plan_pkg/lib/python3.8/site-packages/motion_plan_pkg/motion_plan.py to motion_plan.cpython-38.pyc
+[1.770s] byte-compiling /home/triton-ai/motion_plan_pkg/install/motion_plan_pkg/lib/python3.8/site-packages/motion_plan_pkg/graph_ltpl/visualization/src/visualize_graph_log.py to visualize_graph_log.cpython-38.pyc
+[1.773s] byte-compiling /home/triton-ai/motion_plan_pkg/install/motion_plan_pkg/lib/python3.8/site-packages/motion_plan_pkg/graph_ltpl/visualization/src/PlotHandler.py to PlotHandler.cpython-38.pyc
+[1.777s] byte-compiling /home/triton-ai/motion_plan_pkg/install/motion_plan_pkg/lib/python3.8/site-packages/motion_plan_pkg/graph_ltpl/visualization/src/__init__.py to __init__.cpython-38.pyc
+[1.778s] byte-compiling /home/triton-ai/motion_plan_pkg/install/motion_plan_pkg/lib/python3.8/site-packages/motion_plan_pkg/graph_ltpl/visualization/__init__.py to __init__.cpython-38.pyc
+[1.778s] byte-compiling /home/triton-ai/motion_plan_pkg/install/motion_plan_pkg/lib/python3.8/site-packages/motion_plan_pkg/graph_ltpl/data_objects/GraphBase.py to GraphBase.cpython-38.pyc
+[1.782s] byte-compiling /home/triton-ai/motion_plan_pkg/install/motion_plan_pkg/lib/python3.8/site-packages/motion_plan_pkg/graph_ltpl/data_objects/__init__.py to __init__.cpython-38.pyc
+[1.782s] byte-compiling /home/triton-ai/motion_plan_pkg/install/motion_plan_pkg/lib/python3.8/site-packages/motion_plan_pkg/graph_ltpl/data_objects/ObjectListInterface.py to ObjectListInterface.cpython-38.pyc
+[1.784s] byte-compiling /home/triton-ai/motion_plan_pkg/install/motion_plan_pkg/lib/python3.8/site-packages/motion_plan_pkg/graph_ltpl/helper_funcs/src/closest_path_index.py to closest_path_index.cpython-38.pyc
+[1.784s] byte-compiling /home/triton-ai/motion_plan_pkg/install/motion_plan_pkg/lib/python3.8/site-packages/motion_plan_pkg/graph_ltpl/helper_funcs/src/Logging.py to Logging.cpython-38.pyc
+[1.785s] byte-compiling /home/triton-ai/motion_plan_pkg/install/motion_plan_pkg/lib/python3.8/site-packages/motion_plan_pkg/graph_ltpl/helper_funcs/src/get_s_coord.py to get_s_coord.cpython-38.pyc
+[1.785s] byte-compiling /home/triton-ai/motion_plan_pkg/install/motion_plan_pkg/lib/python3.8/site-packages/motion_plan_pkg/graph_ltpl/helper_funcs/src/calc_brake_emergency.py to calc_brake_emergency.cpython-38.pyc
+[1.786s] byte-compiling /home/triton-ai/motion_plan_pkg/install/motion_plan_pkg/lib/python3.8/site-packages/motion_plan_pkg/graph_ltpl/helper_funcs/src/calc_vel_profile_follow.py to calc_vel_profile_follow.cpython-38.pyc
+[1.787s] byte-compiling /home/triton-ai/motion_plan_pkg/install/motion_plan_pkg/lib/python3.8/site-packages/motion_plan_pkg/graph_ltpl/helper_funcs/src/__init__.py to __init__.cpython-38.pyc
+[1.787s] byte-compiling /home/triton-ai/motion_plan_pkg/install/motion_plan_pkg/lib/python3.8/site-packages/motion_plan_pkg/graph_ltpl/helper_funcs/__init__.py to __init__.cpython-38.pyc
+[1.787s] byte-compiling /home/triton-ai/motion_plan_pkg/install/motion_plan_pkg/lib/python3.8/site-packages/motion_plan_pkg/graph_ltpl/testing_tools/src/vdc_dummy.py to vdc_dummy.cpython-38.pyc
+[1.788s] byte-compiling /home/triton-ai/motion_plan_pkg/install/motion_plan_pkg/lib/python3.8/site-packages/motion_plan_pkg/graph_ltpl/testing_tools/src/objectlist_dummy.py to objectlist_dummy.cpython-38.pyc
+[1.789s] byte-compiling /home/triton-ai/motion_plan_pkg/install/motion_plan_pkg/lib/python3.8/site-packages/motion_plan_pkg/graph_ltpl/testing_tools/src/__init__.py to __init__.cpython-38.pyc
+[1.789s] byte-compiling /home/triton-ai/motion_plan_pkg/install/motion_plan_pkg/lib/python3.8/site-packages/motion_plan_pkg/graph_ltpl/testing_tools/__init__.py to __init__.cpython-38.pyc
+[1.789s] byte-compiling /home/triton-ai/motion_plan_pkg/install/motion_plan_pkg/lib/python3.8/site-packages/motion_plan_pkg/graph_ltpl/offline_graph/src/gen_offline_cost.py to gen_offline_cost.cpython-38.pyc
+[1.790s] byte-compiling /home/triton-ai/motion_plan_pkg/install/motion_plan_pkg/lib/python3.8/site-packages/motion_plan_pkg/graph_ltpl/offline_graph/src/gen_node_skeleton.py to gen_node_skeleton.cpython-38.pyc
+[1.791s] byte-compiling /home/triton-ai/motion_plan_pkg/install/motion_plan_pkg/lib/python3.8/site-packages/motion_plan_pkg/graph_ltpl/offline_graph/src/prune_graph.py to prune_graph.cpython-38.pyc
+[1.791s] byte-compiling /home/triton-ai/motion_plan_pkg/install/motion_plan_pkg/lib/python3.8/site-packages/motion_plan_pkg/graph_ltpl/offline_graph/src/gen_edges.py to gen_edges.cpython-38.pyc
+[1.792s] byte-compiling /home/triton-ai/motion_plan_pkg/install/motion_plan_pkg/lib/python3.8/site-packages/motion_plan_pkg/graph_ltpl/offline_graph/src/main_offline_callback.py to main_offline_callback.cpython-38.pyc
+[1.793s] byte-compiling /home/triton-ai/motion_plan_pkg/install/motion_plan_pkg/lib/python3.8/site-packages/motion_plan_pkg/graph_ltpl/offline_graph/src/__init__.py to __init__.cpython-38.pyc
+[1.794s] byte-compiling /home/triton-ai/motion_plan_pkg/install/motion_plan_pkg/lib/python3.8/site-packages/motion_plan_pkg/graph_ltpl/offline_graph/__init__.py to __init__.cpython-38.pyc
+[1.794s] byte-compiling /home/triton-ai/motion_plan_pkg/install/motion_plan_pkg/lib/python3.8/site-packages/motion_plan_pkg/graph_ltpl/Graph_LTPL.py to Graph_LTPL.cpython-38.pyc
+[1.796s] byte-compiling /home/triton-ai/motion_plan_pkg/install/motion_plan_pkg/lib/python3.8/site-packages/motion_plan_pkg/graph_ltpl/__init__.py to __init__.cpython-38.pyc
+[1.797s] byte-compiling /home/triton-ai/motion_plan_pkg/install/motion_plan_pkg/lib/python3.8/site-packages/motion_plan_pkg/graph_ltpl/imp_global_traj/src/variable_step_size.py to variable_step_size.cpython-38.pyc
+[1.797s] byte-compiling /home/triton-ai/motion_plan_pkg/install/motion_plan_pkg/lib/python3.8/site-packages/motion_plan_pkg/graph_ltpl/imp_global_traj/src/import_globtraj_csv.py to import_globtraj_csv.cpython-38.pyc
+[1.797s] byte-compiling /home/triton-ai/motion_plan_pkg/install/motion_plan_pkg/lib/python3.8/site-packages/motion_plan_pkg/graph_ltpl/imp_global_traj/src/__init__.py to __init__.cpython-38.pyc
+[1.798s] byte-compiling /home/triton-ai/motion_plan_pkg/install/motion_plan_pkg/lib/python3.8/site-packages/motion_plan_pkg/graph_ltpl/imp_global_traj/__init__.py to __init__.cpython-38.pyc
+[1.798s] byte-compiling /home/triton-ai/motion_plan_pkg/install/motion_plan_pkg/lib/python3.8/site-packages/motion_plan_pkg/graph_ltpl/online_graph/src/get_intersec_edges.py to get_intersec_edges.cpython-38.pyc
+[1.799s] byte-compiling /home/triton-ai/motion_plan_pkg/install/motion_plan_pkg/lib/python3.8/site-packages/motion_plan_pkg/graph_ltpl/online_graph/src/VpForwardBackward.py to VpForwardBackward.cpython-38.pyc
+[1.799s] byte-compiling /home/triton-ai/motion_plan_pkg/install/motion_plan_pkg/lib/python3.8/site-packages/motion_plan_pkg/graph_ltpl/online_graph/src/VpSQP.py to VpSQP.cpython-38.pyc
+[1.802s] byte-compiling /home/triton-ai/motion_plan_pkg/install/motion_plan_pkg/lib/python3.8/site-packages/motion_plan_pkg/graph_ltpl/online_graph/src/get_zone_nodes.py to get_zone_nodes.cpython-38.pyc
+[1.802s] byte-compiling /home/triton-ai/motion_plan_pkg/install/motion_plan_pkg/lib/python3.8/site-packages/motion_plan_pkg/graph_ltpl/online_graph/src/gen_local_node_template.py to gen_local_node_template.cpython-38.pyc
+[1.804s] byte-compiling /home/triton-ai/motion_plan_pkg/install/motion_plan_pkg/lib/python3.8/site-packages/motion_plan_pkg/graph_ltpl/online_graph/src/OnlineTrajectoryHandler.py to OnlineTrajectoryHandler.cpython-38.pyc
+[1.809s] byte-compiling /home/triton-ai/motion_plan_pkg/install/motion_plan_pkg/lib/python3.8/site-packages/motion_plan_pkg/graph_ltpl/online_graph/src/check_inside_bounds.py to check_inside_bounds.cpython-38.pyc
+[1.810s] byte-compiling /home/triton-ai/motion_plan_pkg/install/motion_plan_pkg/lib/python3.8/site-packages/motion_plan_pkg/graph_ltpl/online_graph/src/main_online_path_gen.py to main_online_path_gen.cpython-38.pyc
+[1.811s] byte-compiling /home/triton-ai/motion_plan_pkg/install/motion_plan_pkg/lib/python3.8/site-packages/motion_plan_pkg/graph_ltpl/online_graph/src/__init__.py to __init__.cpython-38.pyc
+[1.811s] byte-compiling /home/triton-ai/motion_plan_pkg/install/motion_plan_pkg/lib/python3.8/site-packages/motion_plan_pkg/graph_ltpl/online_graph/__init__.py to __init__.cpython-38.pyc
+[1.811s] byte-compiling /home/triton-ai/motion_plan_pkg/install/motion_plan_pkg/lib/python3.8/site-packages/motion_plan_pkg/__init__.py to __init__.cpython-38.pyc
+[1.812s] running install_data
+[1.812s] copying package.xml -> /home/triton-ai/motion_plan_pkg/install/motion_plan_pkg/share/motion_plan_pkg
+[1.812s] running install_egg_info
+[1.814s] Copying build/motion_plan_pkg/motion_plan_pkg.egg-info to /home/triton-ai/motion_plan_pkg/install/motion_plan_pkg/lib/python3.8/site-packages/motion_plan_pkg-0.0.0-py3.8.egg-info
+[1.815s] running install_scripts
+[1.835s] Installing motion_plan script to /home/triton-ai/motion_plan_pkg/install/motion_plan_pkg/lib/motion_plan_pkg
+[1.837s] writing list of installed files to '/home/triton-ai/motion_plan_pkg/build/motion_plan_pkg/install.log'
+[1.861s] Invoked command in '/home/triton-ai/motion_plan_pkg' returned '0': PYTHONPATH=/home/triton-ai/motion_plan_pkg/install/motion_plan_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/motion_plan_pkg build --build-base /home/triton-ai/motion_plan_pkg/build/motion_plan_pkg/build install --prefix /home/triton-ai/motion_plan_pkg/install/motion_plan_pkg --record /home/triton-ai/motion_plan_pkg/build/motion_plan_pkg/install.log --single-version-externally-managed
